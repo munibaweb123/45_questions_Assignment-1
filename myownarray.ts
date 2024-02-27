@@ -1,10 +1,8 @@
-//22.Intentional Error: If you haven’t received an array index error in one of your programs yet, try to make one happen. Change an index in one of your programs to produce an index error. Make sure you correct the error before closing the program.
+// 13. Your Own Array: Think of your favorite mode of transportation, such as a motorcycle or a car, and make a list that stores several examples. Use your list
+// to print a series of statements about these items, such as “I would like to own a Honda motorcycle.”
+
 var mytransport=["green bus","red line","honda civic"];
-var mycar;//no value at any index
-mycar=[];
 var mylistcomment="I would like to own a "
 for(var i=0;i<mytransport.length;i++){
     console.log(mylistcomment+mytransport[i])
 }
-console.log(mytransport);
-console.log(mycar[0])//there is no value on 0 index
